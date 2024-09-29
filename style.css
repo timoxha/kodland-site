@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+}
+
+ul {
+    color: cyan;
+    border: 1rem solid;
+    font-size: 20;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: black;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+ul:hover {
+    animation: color-change 3s infinite;
+}
